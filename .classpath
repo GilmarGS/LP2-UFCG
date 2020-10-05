@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="colecoes/src"/>
+	<classpathentry kind="src" path="entendendoComposicao/src"/>
+	<classpathentry kind="src" path="LAB 02/src"/>
+	<classpathentry kind="src" path="LAB05_PARTE3_GILMAR_GONZAGA_DA_SILVA/lab05"/>
+	<classpathentry kind="src" path="lab05/src"/>
+	<classpathentry kind="src" path="lab1/src"/>
+	<classpathentry kind="src" path="lab3/src"/>
+	<classpathentry kind="src" path="LAB4_GILMAR_GONZAGA_DA_SILVA/src"/>
+	<classpathentry kind="src" path="ProjetoLP2/ProjetoLP2/src"/>
+	<classpathentry kind="src" path="revisaoProvas/refazendoProvaLp2-162/src"/>
+	<classpathentry kind="src" path="revisaoProvas/revisao1/src"/>
+	<classpathentry kind="src" path="revisaoProvas/revisao2/src"/>
+	<classpathentry kind="src" path="revisaoProvas/revisao3/src"/>
+	<classpathentry kind="lib" path="ProjetoLP2/ProjetoLP2/easyaccept.jar"/>
+	<classpathentry kind="output" path="LAB 02/bin"/>
+</classpath>
