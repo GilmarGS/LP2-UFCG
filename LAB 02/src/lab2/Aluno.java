@@ -405,4 +405,46 @@ public class Aluno {
 		return false;
 	}
 
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((cantinas == null) ? 0 : cantinas.hashCode());
+		result = prime * result + ((disciplinas == null) ? 0 : disciplinas.hashCode());
+		result = prime * result + ((laboratorios == null) ? 0 : laboratorios.hashCode());
+		result = prime * result + ((saude == null) ? 0 : saude.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Aluno other = (Aluno) obj;
+		if (cantinas == null) {
+			if (other.cantinas != null)
+				return false;
+		} else if (!cantinas.equals(other.cantinas))
+			return false;
+		if (disciplinas == null) {
+			if (other.disciplinas != null)
+				return false;
+		} else if (!disciplinas.equals(other.disciplinas))
+			return false;
+		if (laboratorios == null) {
+			if (other.laboratorios != null)
+				return false;
+		} else if (!laboratorios.equals(other.laboratorios))
+			return false;
+		if (saude == null) {
+			if (other.saude != null)
+				return false;
+		} else if (!saude.equals(other.saude))
+			return false;
+		return true;
+	}
 }
